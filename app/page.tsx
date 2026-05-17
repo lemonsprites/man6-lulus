@@ -10,8 +10,8 @@ import { saveAs } from 'file-saver'
 const SCHOOL_CONFIG = {
   name: "MAN 6 CIAMIS",           // Ganti nama sekolahmu
   logo: "🧑‍🎓",                       // Bisa ganti emoji atau gambar
-  primaryColor: "teal",           // Warna utama (indigo, emerald, sky, dll)
-  secondaryColor: "amber",           // Warna sekunder
+  primaryColor: "emerald",           // Warna utama (indigo, emerald, sky, dll)
+  secondaryColor: "indigo",           // Warna sekunder
 }
 
 // ========== TIPE DATA ==========
