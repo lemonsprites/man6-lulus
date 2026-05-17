@@ -66,7 +66,7 @@ export default function Home() {
         asal_sekolah: data.asal_sekolah || '-',
         nomor_hp: data.nomor_hp || '-',
         ukuran_baju: data.ukuran_baju || '-',
-        status_kelulusan: data.status_kelulusan || 'LULUS',
+        status_kelulusan: data.status_kelulusan || 'DITERIMA',
       })
     } catch (err) {
       console.error(err)
@@ -124,7 +124,7 @@ export default function Home() {
   const gradientClass = `from-${SCHOOL_CONFIG.primaryColor}-50 via-white to-${SCHOOL_CONFIG.secondaryColor}-50`
   const buttonGradient = `from-${SCHOOL_CONFIG.primaryColor}-600 to-${SCHOOL_CONFIG.primaryColor}-700`
 
-  const isLulus = result?.status_kelulusan === 'LULUS'
+  const isLulus = result?.status_kelulusan === 'DITERIMA'
 
   return (
     <main className={`min-h-screen bg-gradient-to-br ${gradientClass} py-8 px-4 sm:py-12 sm:px-6`}>
