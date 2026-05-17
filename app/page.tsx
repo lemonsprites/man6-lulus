@@ -8,10 +8,10 @@ import { saveAs } from 'file-saver'
 
 // ========== KONFIGURASI SEKOLAH (GANTI DI SINI) ==========
 const SCHOOL_CONFIG = {
-  name: "MTSN 1 CIAMIS",           // Ganti nama sekolahmu
-  logo: "🎓",                       // Bisa ganti emoji atau gambar
-  primaryColor: "indigo",           // Warna utama (indigo, emerald, sky, dll)
-  secondaryColor: "cyan",           // Warna sekunder
+  name: "MAN 6 CIAMIS",           // Ganti nama sekolahmu
+  logo: "🧑‍🎓",                       // Bisa ganti emoji atau gambar
+  primaryColor: "teal",           // Warna utama (indigo, emerald, sky, dll)
+  secondaryColor: "amber",           // Warna sekunder
 }
 
 // ========== TIPE DATA ==========
