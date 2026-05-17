@@ -238,6 +238,8 @@ export default function Home() {
                   </div>
 
                   {/* Tombol Download (hanya jika lulus) */}
+                  {/* 
+                  
                   {isLulus && (
                     <div className="flex flex-col sm:flex-row gap-3 justify-center pt-3 border-t">
                       <button
@@ -254,6 +256,7 @@ export default function Home() {
                       </button>
                     </div>
                   )}
+                  */}
                 </div>
               </div>
             )}
