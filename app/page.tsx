@@ -196,7 +196,7 @@ export default function Home() {
                     {isLulus ? '✅' : '❌'}
                   </div>
                   <h2 className="text-4xl sm:text-5xl font-bold">
-                    {isLulus ? 'LULUS' : 'TIDAK LULUS'}
+                    {isLulus ? 'DITERIMA' : 'TIDAK DITERIMA'}
                   </h2>
                   <p className="text-base sm:text-xl opacity-90 mt-2">
                     {isLulus
