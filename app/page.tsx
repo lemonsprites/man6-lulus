@@ -133,7 +133,7 @@ export default function Home() {
           <div className="text-center mb-6 sm:mb-8">
             <div className="text-5xl sm:text-6xl mb-2 sm:mb-3 animate-bounce">{SCHOOL_CONFIG.logo}</div>
             <h1 className="text-2xl sm:text-4xl font-extrabold bg-gradient-to-r from-indigo-600 to-cyan-600 bg-clip-text text-transparent">
-              CEK KELULUSAN<br className="hidden sm:block" />{SCHOOL_CONFIG.name}
+              HASIL SELEKSI MASUK<br className="hidden sm:block" />{SCHOOL_CONFIG.name}
             </h1>
             <p className="text-sm sm:text-base text-gray-600 mt-2">Portal resmi pengecekan kelulusan siswa</p>
           </div>
