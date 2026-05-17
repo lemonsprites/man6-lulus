@@ -149,7 +149,7 @@ export default function Home() {
                   onChange={(e) => setNopen(e.target.value.toUpperCase())}
                   onKeyDown={(e) => e.key === 'Enter' && !loading && checkGraduation()}
                   className="flex-1 rounded-xl border-gray-300 px-4 py-3 border focus:ring-indigo-500 focus:border-indigo-500 transition-all text-base font-mono"
-                  placeholder="Contoh: 2026.27.0.001"
+                  placeholder="Contoh: 2026.27.0.00001"
                   disabled={loading}
                 />
                 <button
