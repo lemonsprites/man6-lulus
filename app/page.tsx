@@ -203,7 +203,7 @@ export default function Home() {
                   </h2>
                   <p className="text-base sm:text-xl opacity-90 mt-2">
                     {isLulus
-                      ? <>Selamat! anda terdaftar menjadi siswa MAN 6 Ciamis'<br/><p>Tahun Pelajaran 2026/2027</p></>
+                      ? <>Selamat! anda terdaftar menjadi siswa MAN 6 Ciamis<br/><p>Tahun Pelajaran 2026/2027</p></>
                       : 'Mohon maaf, Anda belum dinyatakan lulus.'}
                   </p>
                 </div>
