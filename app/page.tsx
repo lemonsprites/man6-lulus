@@ -155,7 +155,7 @@ export default function Home() {
                 <button
                   onClick={checkGraduation}
                   disabled={loading}
-                  className={`bg-gradient-to-r ${buttonGradient} hover:from-${SCHOOL_CONFIG.primaryColor}-700 hover:to-${SCHOOL_CONFIG.primaryColor}-800 text-white px-6 py-3 rounded-xl disabled:opacity-50 transition-all flex items-center justify-center gap-2 shadow-md text-base`}
+                  className={`bg-${SCHOOL_CONFIG.primaryColor}-600 hover:bg-${SCHOOL_CONFIG.primaryColor}-700 text-white px-6 py-3 rounded-xl disabled:opacity-50 transition-all flex items-center justify-center gap-2 shadow-md text-base`}
                 >
                   {loading ? (
                     <>
@@ -188,11 +188,10 @@ export default function Home() {
             {result && (
               <div className="mt-6 animate-fadeInUp">
                 {/* Card Status Kelulusan */}
-                <div className={`relative overflow-hidden rounded-2xl shadow-xl p-5 sm:p-8 text-center ${
-                  isLulus 
-                    ? 'bg-gradient-to-r from-green-500 to-emerald-600' 
+                <div className={`relative overflow-hidden rounded-2xl shadow-xl p-5 sm:p-8 text-center ${isLulus
+                    ? 'bg-gradient-to-r from-green-500 to-emerald-600'
                     : 'bg-gradient-to-r from-red-500 to-rose-600'
-                } text-white`}>
+                  } text-white`}>
                   <div className="text-6xl sm:text-7xl mb-3">
                     {isLulus ? '✅' : '❌'}
                   </div>
@@ -200,8 +199,8 @@ export default function Home() {
                     {isLulus ? 'LULUS' : 'TIDAK LULUS'}
                   </h2>
                   <p className="text-base sm:text-xl opacity-90 mt-2">
-                    {isLulus 
-                      ? 'Selamat! Anda dinyatakan lulus.' 
+                    {isLulus
+                      ? 'Selamat! Anda dinyatakan lulus.'
                       : 'Mohon maaf, Anda belum dinyatakan lulus.'}
                   </p>
                 </div>
