@@ -166,7 +166,7 @@ export default function Home() {
                       Memeriksa...
                     </>
                   ) : (
-                    'Cek Kelulusan'
+                    'Cek Hasil Seleksi'
                   )}
                 </button>
               </div>
@@ -189,9 +189,12 @@ export default function Home() {
               <div className="mt-6 animate-fadeInUp">
                 {/* Card Status Kelulusan */}
                 <div className={`relative overflow-hidden rounded-2xl shadow-xl p-5 sm:p-8 text-center ${isLulus
-                    ? 'bg-gradient-to-r from-green-500 to-emerald-600'
-                    : 'bg-gradient-to-r from-red-500 to-rose-600'
+                  ? 'bg-gradient-to-r from-green-500 to-emerald-600'
+                  : 'bg-gradient-to-r from-red-500 to-rose-600'
                   } text-white`}>
+                  <div className="text-xl text-center mb-4">
+                    Berdasarkan hasil verifikasi administratif dinyatakan
+                  </div>
                   <div className="text-6xl sm:text-7xl mb-3">
                     {isLulus ? '✅' : '❌'}
                   </div>
@@ -200,7 +203,7 @@ export default function Home() {
                   </h2>
                   <p className="text-base sm:text-xl opacity-90 mt-2">
                     {isLulus
-                      ? 'Selamat! Anda dinyatakan lulus.'
+                      ? 'Selamat! anda terdaftar dan menjadi siswa MAN 6 Ciamis\nTahun Pelajaran 2026/2027'
                       : 'Mohon maaf, Anda belum dinyatakan lulus.'}
                   </p>
                 </div>
