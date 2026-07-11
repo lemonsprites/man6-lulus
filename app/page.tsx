@@ -193,7 +193,10 @@ export default function Home() {
                   : 'bg-gradient-to-r from-red-500 to-rose-600'
                   } text-white`}>
                   <div className="text-xl text-center mb-4">
-                    Berdasarkan surat keputusan Kepala MAN 6 Ciamis dinyatakan
+                    Berdasarkan surat keputusan Kepala MAN 6 Ciamis
+                  </div>
+                  <div className="text-xl text-center mb-4">
+                    dan setelah mengikuti ts uji kompetensi dan wawancara, maka murid yang tercantum berikut ini, telah dinyatakan:
                   </div>
                   <div className="text-6xl sm:text-7xl mb-3">
                     {isLulus ? '✅' : '❌'}
@@ -203,7 +206,7 @@ export default function Home() {
                   </h2>
                   <p className="text-base sm:text-xl opacity-90 mt-2">
                     {isLulus
-                      ? <>Selamat! anda terdaftar menjadi siswa MAN 6 Ciamis<br/><p>Tahun Pelajaran 2026/2027</p></>
+                      ? <>Selamat! anda terdaftar menjadi siswa MAN 6 Ciamis<br /><p>Tahun Pelajaran 2026/2027</p></>
                       : 'Mohon maaf, Anda belum dinyatakan lulus.'}
                   </p>
                 </div>
@@ -238,6 +241,10 @@ export default function Home() {
                         {result.status_kelulusan}
                       </p>
                     </div>
+                  </div>
+
+                  <div>
+                    Untuk selanjutnya kepada yang bersangkutan dipersilahkan untuk mengikuti Masa Ta'aruf Murid Madrasah (MATAMUDA) dan Masa Ta'aruf Calon Anggota Keluarga Ambalan Penegak (MATACAKAP) pada Tanggal 13-18 Juli 2026.
                   </div>
 
                   {/* Tombol Download (hanya jika lulus) */}
