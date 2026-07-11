@@ -5,6 +5,8 @@ import { createClient } from '@/lib/supabase/client'
 import PizZip from 'pizzip'
 import Docxtemplater from 'docxtemplater'
 import { saveAs } from 'file-saver'
+import Link from 'next/link'
+
 
 // ========== KONFIGURASI SEKOLAH (GANTI DI SINI) ==========
 const SCHOOL_CONFIG = {
@@ -245,6 +247,11 @@ export default function Home() {
 
                   <div>
                     Untuk selanjutnya kepada yang bersangkutan dipersilahkan untuk mengikuti Masa Ta'aruf Murid Madrasah (MATAMUDA) dan Masa Ta'aruf Calon Anggota Keluarga Ambalan Penegak (MATACAKAP) pada Tanggal 13-18 Juli 2026.
+                  </div>
+                  <div>
+                    <Link href={"https://drive.google.com/file/d/1ZMSyItZjBl97Ow02mJOukBQ6J5t8lex3/view"}>
+                      Lihat Surat Keputusan
+                    </Link>
                   </div>
 
                   {/* Tombol Download (hanya jika lulus) */}
