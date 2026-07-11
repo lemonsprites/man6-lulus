@@ -193,7 +193,7 @@ export default function Home() {
                   : 'bg-gradient-to-r from-red-500 to-rose-600'
                   } text-white`}>
                   <div className="text-xl text-center mb-4">
-                    Berdasarkan hasil verifikasi administratif dinyatakan
+                    Berdasarkan surat keputusan Kepala MAN 6 Ciamis dinyatakan
                   </div>
                   <div className="text-6xl sm:text-7xl mb-3">
                     {isLulus ? '✅' : '❌'}
