@@ -251,8 +251,9 @@ export default function Home() {
                   <div className='text-center mt-5'>
                     <Link href={"https://drive.google.com/file/d/1ZMSyItZjBl97Ow02mJOukBQ6J5t8lex3/view"}>
                       <button
-                        className={`bg-${SCHOOL_CONFIG.primaryColor}-600 hover:bg-${SCHOOL_CONFIG.primaryColor}-700 text-white px-6 py-3 rounded-xl disabled:opacity-50 transition-all flex items-center justify-center gap-2 shadow-md text-base`}>
-                          Lihat Surat Keputusan
+                        className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 px-5 rounded-xl text-sm sm:text-base active:scale-95 transition-transform"
+                      >
+                        Lihat Surat Keputusan
                       </button>
                     </Link>
                   </div>
