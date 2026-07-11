@@ -248,9 +248,12 @@ export default function Home() {
                   <div>
                     Untuk selanjutnya kepada yang bersangkutan dipersilahkan untuk mengikuti Masa Ta'aruf Murid Madrasah (MATAMUDA) dan Masa Ta'aruf Calon Anggota Keluarga Ambalan Penegak (MATACAKAP) pada Tanggal 13-18 Juli 2026.
                   </div>
-                  <div>
+                  <div className='text-center mt-5'>
                     <Link href={"https://drive.google.com/file/d/1ZMSyItZjBl97Ow02mJOukBQ6J5t8lex3/view"}>
-                      Lihat Surat Keputusan
+                      <button
+                        className={`bg-${SCHOOL_CONFIG.primaryColor}-600 hover:bg-${SCHOOL_CONFIG.primaryColor}-700 text-white px-6 py-3 rounded-xl disabled:opacity-50 transition-all flex items-center justify-center gap-2 shadow-md text-base`}>
+                          Lihat Surat Keputusan
+                      </button>
                     </Link>
                   </div>
 
