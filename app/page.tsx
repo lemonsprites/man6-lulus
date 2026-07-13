@@ -198,7 +198,7 @@ export default function Home() {
                     Berdasarkan surat keputusan Kepala MAN 6 Ciamis
                   </div>
                   <div className="text-xl text-center mb-4">
-                    dan setelah mengikuti ts uji kompetensi dan wawancara, maka murid yang tercantum berikut ini, telah dinyatakan:
+                    dan setelah mengikuti tes uji kompetensi dan wawancara, maka murid yang tercantum berikut ini, telah dinyatakan:
                   </div>
                   <div className="text-6xl sm:text-7xl mb-3">
                     {isLulus ? '✅' : '❌'}
